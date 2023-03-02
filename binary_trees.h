@@ -82,8 +82,6 @@ heap_t *array_to_heap(int *array, size_t size);
 int heap_extract(heap_t **root);
 int *heap_to_sorted_array(heap_t *heap, size_t *size);
 void binary_tree_print(const binary_tree_t *);
-_Bool is_complete(const binary_tree_t *tree,
-		  unsigned int index, size_t size);
 
 avl_t *rebalance(avl_t *node, avl_t **tree);
 avl_t *balance_left(avl_t *node);
